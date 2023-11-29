@@ -15,4 +15,8 @@ Then add "import {Routes,Route,Link } from 'react-router-dom';" in app.js
 
 These concepts can be seen in Desserts.js and DessertsList.js
 
+### Reverse a todolist
+
+Concepts can be seen in ToDo.js and Reverse.js
+
 
