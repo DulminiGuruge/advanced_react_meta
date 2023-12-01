@@ -6,6 +6,8 @@ import Reverse from './Reverse';
 import Feedback from './Feedback';
 import Form from './Form';
 import ThemeChange from './ThemeChange';
+import UseState from './UseState';
+import Goals from './Goals';
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
         <Link to="/feedback" className='nav-item'>Feedback</Link>
         <Link to="/form" className='nav-item'>Form</Link>
         <Link to="/themeChange" className='nav-item'>Theme Change</Link>
+        <Link to="/useState" className='nav-item'>Use State</Link>
+        <Link to="/goals" className='nav-item'>Goals</Link>
         
       </nav>
       <Routes>
@@ -26,6 +30,8 @@ function App() {
         <Route path='/feedback' element={<Feedback/>}/>
         <Route path='/form' element={<Form/>}/>
         <Route path='/themeChange' element={<ThemeChange/>}/>
+        <Route path='/useState' element={<UseState/>}/>
+        <Route path='/goals' element={<Goals/>}/>
         
 
       </Routes>
