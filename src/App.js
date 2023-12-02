@@ -9,6 +9,7 @@ import ThemeChange from './ThemeChange';
 import UseState from './UseState';
 import Goals from './Goals';
 import UseReducers from './UseReducers';
+import AlertOverlay from './AlertOverlay';
 //import FetchAPI from './FetchAPI';
 
 
@@ -25,6 +26,9 @@ function App() {
         <Link to="/useState" className='nav-item'>Use State</Link>
         <Link to="/goals" className='nav-item'>Goals</Link>
         <Link to="/useReducers" className='nav-item'>User Reducer</Link>
+        <Link to="/alertOverlays" className='nav-item'>alertOverlays</Link>
+        {/* <Link to="/fetchApi" className='nav-item'>Fetch Api</Link> */}
+       
         
         
       </nav>
@@ -37,6 +41,9 @@ function App() {
         <Route path='/useState' element={<UseState/>}/>
         <Route path='/goals' element={<Goals/>}/>
         <Route path='/useReducers' element={<UseReducers/>}/>
+        <Route path='/alertOverlays' element={<AlertOverlay/>}/>
+        {/* <Route path='/fetchApi' element={<FetchAPI/>}/> */}
+       
         
         
 
